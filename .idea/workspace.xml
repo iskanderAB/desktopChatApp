@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20127253-b0fe-4cdc-b21a-dd94a5ccc67b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/chats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserItem/UserItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UsersChatList/UsersChatList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ChatContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataBase/firestore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Chat/Chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Login/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Register/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Settings/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/JoinedChat/JoinedChats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/JoinedChat/JoinedChats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1srrNWgODKg9XwD1QW76Qmi8i0P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WEB_training\chatapp\src" />
+      <recent name="D:\WEB_training\chatapp\src\dataBase" />
+      <recent name="D:\WEB_training\chatapp\src\views\Chat" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20127253-b0fe-4cdc-b21a-dd94a5ccc67b" name="Default Changelist" comment="" />
+      <created>1621641545556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621641545556</updated>
+      <workItem from="1621641574200" duration="6527000" />
+      <workItem from="1621651626877" duration="358000" />
+      <workItem from="1621675423114" duration="725000" />
+      <workItem from="1621759213629" duration="971000" />
+      <workItem from="1621760221296" duration="113000" />
+      <workItem from="1621779796455" duration="1044000" />
+      <workItem from="1621780974766" duration="22000" />
+      <workItem from="1621781004044" duration="6026000" />
+      <workItem from="1621860494442" duration="5894000" />
+      <workItem from="1621948872008" duration="7104000" />
+      <workItem from="1622073307045" duration="2026000" />
+      <workItem from="1622102071454" duration="8167000" />
+      <workItem from="1622137817666" duration="2124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="457" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622074493813">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="457" y="170" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1622074493813" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1621780985696">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1621780985696" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1622138264595">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1622138264595" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1622108913664">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1622108913664" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/Register/Register.js</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/Chat/Chat.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,12 +1,14 @@
 import React from 'react';
 import SearchBox from "../UI/SearchBox";
-
+import { useHistory } from 'react-router-dom';
 const JoinedChats = () => {
+    const history = useHistory();
     return <div className="list-container">
         <SearchBox/>
         <ul className="items">
             <li
                 onClick={() => {
+                    history.push('/chat/1')
                 }}
                 className="item">
                 <div className="item-status">
@@ -21,6 +23,7 @@ const JoinedChats = () => {
             </li>
             <li
                 onClick={() => {
+                    history.push('/chat/2')
                 }}
                 className="item">
                 <div className="item-status">
@@ -35,6 +38,7 @@ const JoinedChats = () => {
             </li>
             <li
                 onClick={() => {
+                    history.push('/chat/3')
                 }}
                 className="item">
                 <div className="item-status">
@@ -49,6 +53,7 @@ const JoinedChats = () => {
             </li>
             <li
                 onClick={() => {
+                    history.push('/chat/4')
                 }}
                 className="item">
                 <div className="item-status">

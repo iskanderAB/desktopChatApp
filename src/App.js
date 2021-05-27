@@ -1,26 +1,50 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import {Provider, useStore} from 'react-redux';
 import {
-  HashRouter as Router,
-  Route,
-  Switch }
-  from 'react-router-dom';
+    HashRouter as Router,
+    Route,
+    Switch
+} from 'react-router-dom';
 import Home from "./views/Home/Home";
+import NavBar from "./components/NavBar/NavBar";
+import Settings from "./views/Settings/Settings";
+import Login from "./views/Login/Login";
+import Register from "./views/Register/Register";
+import Chat from "./views/Chat/Chat";
+import {fetchChats} from './api/chats';
+import configureStore from "./store";
 
 function App() {
-  return (
-    <Router>
-      <Switch>
-        <Route path='/login'>
-          <h1>
-            hello all people
-          </h1>
-        </Route>
-        <Route path='/'>
-          <Home/>
-        </Route>
-      </Switch>
-    </Router>
-  )
+    const store = configureStore();
+    useEffect(() => {
+        fetchChats();
+    }, []);
+    return (
+        <Provider store={store}>
+            <Router>
+                <NavBar/>
+                <div className='content-wrapper'>
+                    <Switch>
+                        <Route path='/' exact>
+                            <Home/>
+                        </Route>
+                        <Route path='/register'>
+                            <Register/>
+                        </Route>
+                        <Route path='/login'>
+                            <Login/>
+                        </Route>
+                        <Route path='/settings'>
+                            <Settings/>
+                        </Route>
+                        <Route path='/chat/:id'>
+                            <Chat/>
+                        </Route>
+                    </Switch>
+                </div>
+            </Router>
+        </Provider>
+    )
 }
 
 export default App;
