@@ -15,16 +15,22 @@ import {fetchChats} from './api/chats';
 import configureStore from "./store";
 
 
-const   { ipcRenderer } = window.require('electron');
+// const   { ipcRenderer } = window.require('electron');
 function App() {
     const store = configureStore();
     useEffect(() => {
         fetchChats();
     }, []);
 
-    console.log("hello", ipcRenderer);
+    const sendNotify = () => {
+        console.log(window.sendNotification);
+    };
     return (
-        <div/>
+        <div>
+            <button onClick={sendNotify}>
+                sendNotification
+            </button>
+        </div>
         /*<Provider store={store}>
             <Router>
                 <NavBar/>
