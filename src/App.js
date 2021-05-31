@@ -14,13 +14,18 @@ import Chat from "./views/Chat/Chat";
 import {fetchChats} from './api/chats';
 import configureStore from "./store";
 
+
+const   { ipcRenderer } = window.require('electron');
 function App() {
     const store = configureStore();
     useEffect(() => {
         fetchChats();
     }, []);
+
+    console.log("hello", ipcRenderer);
     return (
-        <Provider store={store}>
+        <div/>
+        /*<Provider store={store}>
             <Router>
                 <NavBar/>
                 <div className='content-wrapper'>
@@ -43,7 +48,7 @@ function App() {
                     </Switch>
                 </div>
             </Router>
-        </Provider>
+        </Provider>*/
     )
 }
 
