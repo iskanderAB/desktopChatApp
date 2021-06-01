@@ -37,7 +37,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -75,7 +75,9 @@
       <workItem from="1622207221357" duration="5623000" />
       <workItem from="1622383522615" duration="1183000" />
       <workItem from="1622471122363" duration="601000" />
-      <workItem from="1622483191510" duration="4206000" />
+      <workItem from="1622483191510" duration="4341000" />
+      <workItem from="1622549365511" duration="630000" />
+      <workItem from="1622555532210" duration="5167000" />
     </task>
     <servers />
   </component>

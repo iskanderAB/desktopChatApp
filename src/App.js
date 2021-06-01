@@ -23,7 +23,10 @@ function App() {
     }, []);
 
     const sendNotify = () => {
-        console.log(window.sendNotification);
+        // eslint-disable-next-line no-undef
+        electron
+            .notificationApi
+            .sendNotification('my notif');
     };
     return (
         <div>

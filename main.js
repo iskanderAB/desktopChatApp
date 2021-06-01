@@ -12,13 +12,12 @@ function createWindow () {
     backgroundColor : 'white',
     webPreferences: {
       nodeIntegration : false,
-      preload :path.resolve(__dirname , 'preload.js')
-      //contextIsolation: false,
-      //worldSafeExecuteJavaScript : false,
+      contextIsolation: true,
+      worldSafeExecuteJavaScript : true,
+      preload :path.join(__dirname , 'preload.js')
     }
   });
   console.log("------------------------------------------");
-  console.log(path.resolve(__dirname , 'preload.js'));
   console.log("-------------------------------------------");
   // and load the index.html of the app.
   mainWindow.loadURL('http://localhost:3000').then(r => console.log("ready !!!  "));
